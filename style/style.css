@@ -76,3 +76,11 @@ input::-webkit-inner-spin-button {
     font-size: 30px;
     font-family: 'Blue Yellow', sans-serif;
 }
+
+.credits {
+    display: flex;
+    font-family: 'Nova Mono', monospace;
+}
+.credits p{
+    margin: 10px;
+}
