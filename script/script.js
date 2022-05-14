@@ -17,3 +17,4 @@ function getY(){
         return num;
     }
 }
+function setResult(result){ document.getElementById("resultado").innerHTML = "Resultado: " + result; }
