@@ -9,3 +9,16 @@ body{
     background-color: #131b23;
     color: white;
 }
+
+.tittle{
+    display: flex;
+    align-items: center;
+}
+
+.tittle h1{
+    font-family: 'Nova Mono', monospace;
+}
+.tittle img{
+    height: 50px;
+    margin: 10px;
+}
