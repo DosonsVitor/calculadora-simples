@@ -54,3 +54,19 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+.buttons button{
+    border: none;
+}
+
+.buttons #sum{ background-color: #80b4fb; }
+.buttons #sub{ background-color: #fc5692; }
+.buttons #mult{ background-color: #b9ea6a; }
+.buttons #div{ background-color: #fcdd2e; }
+.buttons #raiz{ background-color: #4059ad; }
+.buttons #pow{ background-color: #fa7921; }
+
+.buttons img{
+    height: 30px;
+    margin: 10px;
+}
