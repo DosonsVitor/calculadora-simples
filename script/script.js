@@ -1,3 +1,10 @@
+function potencia(numX, numY){
+    if(numX != false && numY != false){
+        resultado = Math.pow(numX, numY);
+        setResult(resultado);
+    }
+}
+
 function getX(){ 
     var num = document.getElementById("num1").value;
     if(num === ""){
