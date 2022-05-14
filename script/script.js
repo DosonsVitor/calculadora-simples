@@ -18,3 +18,4 @@ function getY(){
     }
 }
 function setResult(result){ document.getElementById("resultado").innerHTML = "Resultado: " + result; }
+function errorReport(){ document.getElementById("resultado").innerHTML = "Insira os dois valores!"; }
