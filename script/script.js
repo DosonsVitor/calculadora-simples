@@ -1,6 +1,6 @@
 function somar(numX, numY){
     if(numX != false && numY != false){
-        resultado = numX + numY;
+        resultado = parseFloat(numX) + parseFloat(numY);
         setResult(resultado);
     } 
 }
