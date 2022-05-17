@@ -14,7 +14,7 @@ function subtrair (numX, numY) {
 
 function multiplicar (numX, numY){
     if(numX != false && numY != false)
-    resultado = numX + numY;
+    resultado = numX * numY;
     setResult(resultado);
 }
 
