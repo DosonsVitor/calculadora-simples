@@ -5,6 +5,20 @@ function somar(numX, numY){
     } 
 }
 
+function subtrair (numX, numY) {
+    if (numX != false && numY != false) {
+        resultado = numX - numY;
+        setResult (resultado); 
+    }
+}
+
+function dividir (numX, numY) {
+    if (numX != false && numY != false) {
+        resultado = numX / numY;
+        setResult (resultado); 
+    }
+}
+
 function raiz(numX, numY){
     if(numX != false && numY != false){
         resultado = "X: " + Math.sqrt(numX) + ", Y: " + Math.sqrt(numY);
