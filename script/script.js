@@ -1,3 +1,10 @@
+function somar(numX, numY){
+    if(numX != false && numY != false){
+        resultado = numX + numY;
+        setResult(resultado);
+    } 
+}
+
 function subtrair (numX, numY) {
     if (numX != false && numY != false) {
         resultado = numX - numY;
@@ -11,7 +18,6 @@ function dividir (numX, numY) {
         setResult (resultado); 
     }
 }
-
 
 function raiz(numX, numY){
     if(numX != false && numY != false){
